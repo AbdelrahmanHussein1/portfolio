@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdelrahman Ehab - AI Engineering Student & Developer specializing in Machine Learning, Deep Learning, and Neural Networks. View my portfolio of AI projects including ECG arrhythmia detection, NLP systems, and computer vision applications."
+    />
+    <meta
+      name="keywords"
+      content="Abdelrahman Ehab, AI Engineer, Machine Learning, Deep Learning, Python Developer, Neural Networks, Computer Vision, NLP"
+    />
+    <meta name="author" content="Abdelrahman Ehab" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Abdelrahman Ehab - AI Engineer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="AI Engineering Student specializing in Machine Learning, Deep Learning, and Neural Networks"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Abdelrahman Ehab | AI Engineer Portfolio</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="components.css" />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- EmailJS SDK -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- ================================================
+       NAVIGATION BAR
+       ================================================ -->
+    <nav class="navbar glass-dark" id="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="logo">
+            <span class="gradient-text">AE</span>
+          </a>
+
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================================================
+       HERO SECTION
+       ================================================ -->
+    <section class="hero section" id="home">
+      <div class="hero-background">
+        <div class="geometric-pattern"></div>
+        <div class="gradient-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title slide-down">
+              Hi, I'm <span class="gradient-text">Abdelrahman Ehab</span>
+            </h1>
+            <div class="hero-subtitle">
+              <span class="typing-text" id="typingText"></span>
+              <span class="cursor">|</span>
+            </div>
+            <p class="hero-description slide-up">
+              AI Engineering student passionate about building intelligent
+              systems that solve real-world problems. Specializing in Machine
+              Learning, Deep Learning, Neural Networks, and Computer Vision.
+            </p>
+            <div class="hero-cta">
+              <a href="#portfolio" class="btn btn-primary btn-lg">
+                <i class="fas fa-briefcase"></i> View My Work
+              </a>
+              <a href="#contact" class="btn btn-outline btn-lg">
+                <i class="fas fa-envelope"></i> Get In Touch
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <div class="glow-effect"></div>
+              <img
+                src="assets/images/profile.png"
+                alt="Abdelrahman Ehab - AI Engineer"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <a href="#about" aria-label="Scroll to about section">
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+       ABOUT SECTION
+       ================================================ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            About <span class="gradient-text">Me</span>
+          </h2>
+          <p class="section-subtitle">
+            Get to know more about my background, skills, and journey
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-frame card-glass">
+              <img
+                src="assets/images/about.png"
+                alt="Abdelrahman Ehab"
+                class="about-img"
+              />
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h3 class="about-heading">"I build intelligent systems that connect AI, networking, and real-world operations to create practical, deployable solutions."</h3>
+            <p class="about-bio">
+              AI Engineering student with hands-on exposure to banking technology, telecommunications infrastructure, and automation projects. 
+              I combine programming, system thinking, and field experience to transform ideas into reliable and scalable systems.
+            </p>
+
+            <h4 class="skills-heading">What Makes Me Different</h4>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <p>Strong foundation in AI, Machine Learning & programming</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <p>Understanding of AI in financial services, data analysis & cybersecurity</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <p>Experience working in real environments — not only academic projects</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <p>Team player with leadership and volunteering background in national competitions</p>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="skills-heading">Value I Bring</h4>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-chevron-right"></i>
+                <div>
+                  <p>Build solutions that are practical, not theoretical</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-chevron-right"></i>
+                <div>
+                  <p>Connect software intelligence with hardware & networks</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-chevron-right"></i>
+                <div>
+                  <p>Learn fast and adapt to new technologies</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-chevron-right"></i>
+                <div>
+                  <p>Deliver organized, documented, and production-ready work</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-chevron-right"></i>
+                <div>
+                  <p>Contribute effectively inside a team environment</p>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="skills-heading">Education & Experience</h4>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>
+                    B.Eng in AI Engineering<br />Galala University (2023-2028)
+                  </p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                  <h4>Internships</h4>
+                  <p>
+                    AI & Networking Internships<br />CIB Bank & Telecom Egypt
+                  </p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-project-diagram"></i>
+                <div>
+                  <h4>Projects</h4>
+                  <p>5+ AI/ML Projects<br />From ECG Detection to NLP</p>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="skills-heading">Technical Skills</h4>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <span>C / C++</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-brain"></i>
+                <span>Machine Learning</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-network-wired"></i>
+                <span>Deep Learning</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-eye"></i>
+                <span>Computer Vision</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-language"></i>
+                <span>NLP</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-calculator"></i>
+                <span>MATLAB</span>
+              </div>
+            </div>
+
+            <a
+              href="assets/AESH CV.pdf"
+              class="btn btn-accent"
+              target="_blank"
+              download
+            >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+       PORTFOLIO SECTION
+       ================================================ -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            My <span class="gradient-text">Portfolio</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore my latest AI and Machine Learning projects
+          </p>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="nlp">NLP</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Project 1: ECG Arrhythmia Detection -->
+          <div class="portfolio-item card" data-category="ml">
+            <div class="project-image">
+              <img
+                src="assets/images/ecg-project.png"
+                alt="ECG Arrhythmia Detection Project"
+              />
+              <div class="project-overlay">
+                <a href="#ecg-modal" class="btn btn-primary project-btn"
+                  >View Details</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Automated ECG Arrhythmia Detection</h3>
+              <p class="project-description">
+                Neural network-based system for detecting cardiac arrhythmias
+                from ECG signals with deep learning classification.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Neural Networks</span>
+                <span class="tag">Healthcare</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: GenZ Translation NLP -->
+          <div class="portfolio-item card" data-category="nlp">
+            <div class="project-image">
+              <img
+                src="assets/images/nlp-project.png"
+                alt="GenZ to Formal English Translation"
+              />
+              <div class="project-overlay">
+                <a href="#nlp-modal" class="btn btn-primary project-btn"
+                  >View Details</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">GenZ to Formal English Translation</h3>
+              <p class="project-description">
+                End-to-end NLP system using Seq2Seq LSTM with Bahdanau Attention
+                and Transformer T5 model for style transfer.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Transformers</span>
+                <span class="tag">Seq2Seq</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: AeroScan -->
+          <div class="portfolio-item card" data-category="cv">
+            <div class="project-image">
+              <img
+                src="assets/images/aeroscan-project.png"
+                alt="AeroScan Aerial Image Segmentation"
+              />
+              <div class="project-overlay">
+                <a href="#aeroscan-modal" class="btn btn-primary project-btn"
+                  >View Details</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                AeroScan – Aerial Image Segmentation
+              </h3>
+              <p class="project-description">
+                Digital image processing system for land-cover segmentation
+                using K-means clustering and FFT analysis with MATLAB GUI.
+              </p>
+              <div class="project-tags">
+                <span class="tag">MATLAB</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Image Processing</span>
+                <span class="tag">K-means</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Smart Campus Navigation -->
+          <div class="portfolio-item card" data-category="ml">
+            <div class="project-image">
+              <img
+                src="assets/images/campus-nav-project.jpg"
+                alt="Smart Campus Navigation System"
+              />
+              <div class="project-overlay">
+                <a href="#campus-modal" class="btn btn-primary project-btn"
+                  >View Details</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Smart Campus Navigation System</h3>
+              <p class="project-description">
+                Interactive application providing shortest and fastest walking
+                routes across campus using graph algorithms.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Graph Theory</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+       CONTACT SECTION
+       ================================================ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            Get In <span class="gradient-text">Touch</span>
+          </h2>
+          <p class="section-subtitle">
+            Let's discuss your AI project or collaboration opportunities
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="John Doe"
+                  required
+                />
+                <span class="form-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="john@example.com"
+                  required
+                />
+                <span class="form-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="Project Collaboration"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-card card-glass">
+              <h3>Contact Information</h3>
+
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:abdulrahman.ehab.hussein@gmail.com"
+                    >abdulrahman.ehab.hussein@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <a href="tel:+201012470663">+20 101 247 0663</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Suez, Egypt</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i class="fas fa-briefcase"></i>
+                <div>
+                  <h4>Availability</h4>
+                  <p class="availability-status">
+                    <span class="status-dot"></span> Open to Internships &
+                    Projects
+                  </p>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <h4>Connect With Me</h4>
+                <div class="social-icons">
+                  <a
+                    href="https://linkedin.com/in/abdelrahman-ehab-aie"
+                    target="_blank"
+                    rel="noopener"
+                    class="social-icon"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://github.com/AbdelrahmanHussein1"
+                    target="_blank"
+                    rel="noopener"
+                    class="social-icon"
+                    aria-label="GitHub"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="mailto:abdulrahman.ehab.hussein@gmail.com"
+                    class="social-icon"
+                    aria-label="Email"
+                  >
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+       PROJECT MODALS
+       ================================================ -->
+    
+    <!-- ECG Arrhythmia Detection Modal -->
+    <div class="modal-overlay" id="ecg-modal">
+      <div class="modal-container">
+        <button class="modal-close" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="modal-header">
+          <h2>Automated ECG Arrhythmia Detection</h2>
+          <p class="modal-category">Machine Learning • Healthcare AI</p>
+        </div>
+        
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="assets/images/ecg-project.png" alt="ECG Arrhythmia Detection System">
+          </div>
+          
+          <div class="modal-description">
+            <h3>Project Overview</h3>
+            <p>
+              Developed a sophisticated neural network-based system for automated detection and classification of cardiac arrhythmias from ECG signals. 
+              This project addresses critical healthcare challenges by providing accurate, real-time cardiac anomaly detection using state-of-the-art deep learning techniques.
+            </p>
+            
+            <h3>Key Features</h3>
+            <ul class="modal-features">
+              <li><i class="fas fa-check-circle"></i> Multi-class arrhythmia classification using deep neural networks</li>
+              <li><i class="fas fa-check-circle"></i> Real-time ECG signal processing and analysis</li>
+              <li><i class="fas fa-check-circle"></i> Advanced preprocessing with noise reduction and normalization</li>
+              <li><i class="fas fa-check-circle"></i> High accuracy detection with PyTorch Lightning framework</li>
+              <li><i class="fas fa-check-circle"></i> Hyperparameter optimization using Optuna</li>
+              <li><i class="fas fa-check-circle"></i> Cross-validation for robust performance evaluation</li>
+            </ul>
+            
+            <h3>Technologies Used</h3>
+            <div class="modal-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">PyTorch</span>
+              <span class="tech-badge">PyTorch Lightning</span>
+              <span class="tech-badge">Neural Networks</span>
+              <span class="tech-badge">Signal Processing</span>
+              <span class="tech-badge">Healthcare AI</span>
+              <span class="tech-badge">Optuna</span>
+            </div>
+            
+            <h3>Impact & Results</h3>
+            <p>
+              Successfully achieved high-accuracy classification of various cardiac arrhythmias, demonstrating the potential for AI-assisted medical diagnosis. 
+              The system can help healthcare professionals make faster, more accurate diagnoses and improve patient outcomes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GenZ Translation NLP Modal -->
+    <div class="modal-overlay" id="nlp-modal">
+      <div class="modal-container">
+        <button class="modal-close" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="modal-header">
+          <h2>GenZ to Formal English Translation</h2>
+          <p class="modal-category">Natural Language Processing • Deep Learning</p>
+        </div>
+        
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="assets/images/nlp-project.png" alt="GenZ Translation NLP System">
+          </div>
+          
+          <div class="modal-description">
+            <h3>Project Overview</h3>
+            <p>
+              Built an end-to-end NLP system for multi-directional style transfer between Gen Z slang, normal English, and formal/professional writing. 
+              This innovative project combines traditional sequence-to-sequence models with modern transformer architectures to achieve high-quality text translation.
+            </p>
+            
+            <h3>Key Features</h3>
+            <ul class="modal-features">
+              <li><i class="fas fa-check-circle"></i> Multi-directional style transfer (GenZ ↔ Formal ↔ Normal)</li>
+              <li><i class="fas fa-check-circle"></i> Seq2Seq LSTM with Bahdanau Attention mechanism</li>
+              <li><i class="fas fa-check-circle"></i> Transformer T5 model implementation</li>
+              <li><i class="fas fa-check-circle"></i> Interactive Gradio UI with interactive slang highlighting</li>
+              <li><i class="fas fa-check-circle"></i> BLEU score evaluation for translation quality</li>
+              <li><i class="fas fa-check-circle"></i> Custom dataset creation and preprocessing</li>
+            </ul>
+            
+            <h3>Technologies Used</h3>
+            <div class="modal-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">NLP</span>
+              <span class="tech-badge">Transformers</span>
+              <span class="tech-badge">Seq2Seq</span>
+              <span class="tech-badge">LSTM</span>
+              <span class="tech-badge">Attention Mechanism</span>
+              <span class="tech-badge">Gradio</span>
+              <span class="tech-badge">T5</span>
+            </div>
+            
+            <h3>Impact & Results</h3>
+            <p>
+              Created a powerful tool for language style transfer that can help bridge communication gaps between different demographics. 
+              The system demonstrates high translation quality across multiple style directions and provides an intuitive user interface for real-world applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AeroScan Modal -->
+    <div class="modal-overlay" id="aeroscan-modal">
+      <div class="modal-container">
+        <button class="modal-close" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="modal-header">
+          <h2>AeroScan – Aerial Image Segmentation</h2>
+          <p class="modal-category">Computer Vision • Image Processing</p>
+        </div>
+        
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="assets/images/aeroscan-project.png" alt="AeroScan Aerial Image Segmentation">
+          </div>
+          
+          <div class="modal-description">
+            <h3>Project Overview</h3>
+            <p>
+              Developed a comprehensive digital image processing system for aerial image analysis and land-cover segmentation. 
+              AeroScan combines classical computer vision techniques with clustering algorithms to perform accurate terrain classification from aerial photographs.
+            </p>
+            
+            <h3>Key Features</h3>
+            <ul class="modal-features">
+              <li><i class="fas fa-check-circle"></i> Intelligent land-cover segmentation using K-means clustering</li>
+              <li><i class="fas fa-check-circle"></i> Fast Fourier Transform (FFT) analysis for frequency domain processing</li>
+              <li><i class="fas fa-check-circle"></i> Interactive MATLAB GUI for user-friendly operation</li>
+              <li><i class="fas fa-check-circle"></i> Multi-class terrain classification (vegetation, water, urban, etc.)</li>
+              <li><i class="fas fa-check-circle"></i> Advanced image preprocessing and enhancement</li>
+              <li><i class="fas fa-check-circle"></i> Real-time visualization of segmentation results</li>
+            </ul>
+            
+            <h3>Technologies Used</h3>
+            <div class="modal-tech-stack">
+              <span class="tech-badge">MATLAB</span>
+              <span class="tech-badge">Computer Vision</span>
+              <span class="tech-badge">Image Processing</span>
+              <span class="tech-badge">K-means Clustering</span>
+              <span class="tech-badge">FFT Analysis</span>
+              <span class="tech-badge">GUI Development</span>
+            </div>
+            
+            <h3>Impact & Results</h3>
+            <p>
+              Successfully implemented a robust aerial image segmentation system with practical applications in urban planning, 
+              environmental monitoring, and agricultural analysis. The intuitive GUI makes advanced image processing accessible to non-technical users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart Campus Navigation Modal -->
+    <div class="modal-overlay" id="campus-modal">
+      <div class="modal-container">
+        <button class="modal-close" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="modal-header">
+          <h2>Smart Campus Navigation System</h2>
+          <p class="modal-category">Algorithms • Graph Theory</p>
+        </div>
+        
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="assets/images/campus-nav-project.jpg" alt="Smart Campus Navigation System">
+          </div>
+          
+          <div class="modal-description">
+            <h3>Project Overview</h3>
+            <p>
+              Created an intelligent campus navigation system that helps students and visitors find optimal routes across campus. 
+              The application leverages graph algorithms to compute both shortest and fastest paths while providing an intuitive user interface.
+            </p>
+            
+            <h3>Key Features</h3>
+            <ul class="modal-features">
+              <li><i class="fas fa-check-circle"></i> Shortest path calculation using Dijkstra's algorithm</li>
+              <li><i class="fas fa-check-circle"></i> Fastest route optimization considering walking speeds</li>
+              <li><i class="fas fa-check-circle"></i> Interactive campus map visualization</li>
+              <li><i class="fas fa-check-circle"></i> Multi-building routing with elevation considerations</li>
+              <li><i class="fas fa-check-circle"></i> Real-time distance and time estimates</li>
+              <li><i class="fas fa-check-circle"></i> User-friendly interface with location search</li>
+            </ul>
+            
+            <h3>Technologies Used</h3>
+            <div class="modal-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Graph Algorithms</span>
+              <span class="tech-badge">Dijkstra's Algorithm</span>
+              <span class="tech-badge">Data Structures</span>
+              <span class="tech-badge">UI/UX Design</span>
+              <span class="tech-badge">Optimization</span>
+            </div>
+            
+            <h3>Impact & Results</h3>
+            <p>
+              Delivered a practical solution that significantly improves campus navigation efficiency. 
+              The system helps students save time and reduces confusion when navigating between buildings, 
+              especially beneficial for new students and visitors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================================================
+       FOOTER
+       ================================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3 class="gradient-text">Abdelrahman Ehab</h3>
+            <p>
+              AI Engineering Student passionate about creating intelligent
+              solutions that make a difference.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <div class="footer-social">
+              <a
+                href="https://linkedin.com/in/abdelrahman-ehab-aie"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/abdelrahman-ehab"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Abdelrahman Ehab. All rights reserved.</p>
+          <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
